@@ -1,0 +1,12 @@
+{
+  "name": "@nathanwhit/promptly",
+  "version": "0.1.1",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno test --watch mod.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/fmt": "jsr:@std/fmt@^1.0.2"
+  }
+}
